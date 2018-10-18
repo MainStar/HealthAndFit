@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Health &amp; Fit"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="50dp"
+            android:hint="  Логин или Email"
+            android:background="#FFFAFA"
+            android:textColorHint="#E9A110"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="40dp"
+            android:hint="  Пароль"
+            android:background="#FFFAFA"
+            android:textColorHint="#E9A110"
+            />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="40dp"
+            android:hint="  Войти"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/background" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
